@@ -1,3 +1,5 @@
+/* global.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,16 +20,43 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white; /* Set background color to white */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Apply white background color to the footer */
+footer {
+  background-color: white !important; /* Ensure footer background is white */
+}
+
+/* Custom CSS */
+.image-container {
+  width: 150px; /* Adjust width and height as needed */
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 200px;
+  position: relative;
+}
+
+.border {
+  width: 36%;
+  height: 36%;
+  border-radius: 50%;
+  border: 3px solid transparent; /* Adjust border width as needed */
+  background-size: 100% 100%; /* 300% to cover three equal parts */
+  background-position: bottom;
+}
+.img-container {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 300px;
+  border: 5px solid #4294E6;
+  position: relative;
+}
+
+.img-container:hover img {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
 }
