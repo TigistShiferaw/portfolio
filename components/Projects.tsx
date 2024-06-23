@@ -15,10 +15,10 @@ interface ProjectsProps {
 }
 
 const Projects: React.FC<ProjectsProps> = ({ projects }) => {
-  const cardWidth = `${100 / Math.min(projects.length, 5)}%`;
+  const cardWidth = `${100 / Math.min(projects.length, 4)}%`;
 
   return (
-    <div className="flex flex-wrap justify-center items-center h-full ml-6">
+    <div className="flex flex-wrap justify-center items-center h-full ml-1">
       {projects.map((project, index) => (
         <div key={index} style={{ width: cardWidth }}>
           <ProjectCard {...project} />
