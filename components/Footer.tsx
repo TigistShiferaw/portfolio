@@ -15,10 +15,10 @@ const Footer = () => {
               <span> tigistshif56@gmail.com</span>
             </div>
             <div className="flex items-center">
-              <a href="https://github.com/yourusername" className="mr-4" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/TigistShiferaw" className="mr-4" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={24} />
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/tigist-shiferaw-yitayew-5439b7219/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={24} />
               </a>
             </div>

@@ -24,10 +24,10 @@ const Navbar = () => {
           <Link href="/Contact" passHref>
             <span className='mr-16 cursor-pointer'>Contact</span>
           </Link>
-          <a href="https://github.com/yourusername" className="mr-6 cursor-pointer">
+          <a href="https://github.com/TigistShiferaw" className="mr-6 cursor-pointer">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" className="cursor-pointer">
+          <a href="https://www.linkedin.com/in/tigist-shiferaw-yitayew-5439b7219/" className="cursor-pointer">
             <FaLinkedin size={24} />
           </a>
         </div>
