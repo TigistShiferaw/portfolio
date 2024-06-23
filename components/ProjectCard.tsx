@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imageSrc, title, description, techStacks, liveLink, githubLink }) => {
   return (
-    <div className="border border-gray-200 rounded-lg mx-1" style={{ width: '300px', height: '400px' }}>
+    <div className="border border-gray-200 rounded-lg mx-1 mt-24" style={{ width: '300px', height: '400px' }}>
       <img src={imageSrc} alt={title} className="w-full h-40 mb-4 object-cover" />
       <h2 className="text-lg font-semibold mb-2">{title}</h2>
       <p className="text-sm text-gray-600 mb-2">{description}</p>

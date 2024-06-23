@@ -2,11 +2,10 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <div className="mt-12 px-6 lg:px-8 xl:px-10">
+    <div className="mt-56 px-6 lg:px-8 xl:px-10">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">Tigist Shiferaw Yitayew</h1>
-          <p className="text-xl text-gray-600">BSc in Electrical and Computer Engineering</p>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">BSc in Electrical and Computer Engineering</h1>
         </header>
 
         <section className="mb-12">
