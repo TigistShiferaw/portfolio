@@ -19,14 +19,7 @@ const projectData = [
     liveLink: 'https://atrons.app/',
     githubLink: 'https://github.com/example/project1',
   },
-  {
-    imageSrc: '/aura.png',
-    title: 'Verified Implementation of Quadcopter Controller',
-    description: 'This project is about using a new programming language with formal verification capabilities to program a quadcopter. The language is designed to be used for drones and cars, and is developed in our lab. The student will use this new language to program basic control capabilities of a quadcopter drone, then include some collision avoidance capabilities. The quadcopter will be at Michigan but there will be opportunities to run tests remotely.',
-    techStacks: ['OCaml', 'C++', 'C','Zélus'],
-    liveLink: 'https://drive.google.com/file/d/1L3NZ3xkwpKHuxVvD6AJ3xK0TArojZRsK/view?usp=drive_link',
-    githubLink: 'https://github.com/TigistShiferaw/zelus',
-  },
+  
   {
     imageSrc: '/cnn.png',
     title: 'CNN Based Audio Noise Cancelation ',
@@ -35,6 +28,14 @@ const projectData = [
     liveLink: 'https://example.com',
     githubLink: 'https://github.com/TigistShiferaw/CNN-based-audio-noise-cancellation',
   },
+  {
+    imageSrc: '/aura.jpg',
+    title: 'Verified Implementation of Quadcopter Controller',
+    description: 'This project is about using a new programming language with formal verification capabilities to program a quadcopter. The language is designed to be used for drones and cars, and is developed in our lab. The student will use this new language to program basic control capabilities of a quadcopter drone, then include some collision avoidance capabilities. The quadcopter will be at Michigan but there will be opportunities to run tests remotely.',
+    techStacks: ['OCaml', 'C++', 'C','Zélus'],
+    liveLink: 'https://drive.google.com/file/d/1L3NZ3xkwpKHuxVvD6AJ3xK0TArojZRsK/view?usp=drive_link',
+    githubLink: 'https://github.com/TigistShiferaw/zelus',
+  }
   
 ];
 
