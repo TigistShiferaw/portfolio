@@ -7,8 +7,8 @@ const projectData = [
     title: 'Adot, Pregnancy Tracking ',
     description: 'Adot provides a groundbreaking All-in-One Hub for Learning, Tracking, and Connecting, tailored for pregnant moms and parents-to-be—revolutionizing every stage of the journey! It seamlessly blends medical and tech expertise to offer precise, personalized guidance, ensuring a consistently enhanced parenting experience.',
     techStacks: ['Typescript', 'Node.js', 'Express','MongoDb',"Generative AI"],
-    liveLink: 'https://drive.google.com/file/d/1oBrUr_9nTrbO6M3VpVqJ77pSz8R75YNB/view?usp=drive_link',
-    githubLink: 'https://github.com/example/nn',
+    liveLink: 'https://play.google.com/store/apps/details?id=org.a2sv.adot_mobile',
+    githubLink: 'https://github.com/A2SV/Adot',
   },
   
   {
